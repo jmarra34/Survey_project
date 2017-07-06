@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    
+    <title>Survey</title>
+    <discription>Projecy 3 survey page</discription>
+     <link href="survey.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>All About You Survey</h1>
+<p>Your info:</p>
+<p>* Required Fields</p>
+<div><input class="form-signin" type="text" required placeholder="Your Name *"></div>
+
+
+
+<div><input class="form-signin" type="text" placeholder="Your Gender"></div>
+
+<div><input class="form-signin" type="text" required placeholder="Your Email *"></div>
+
+<div><input class="form-signin" type="number" min="1" max="100" placeholder="Age"></div>
+
+<label><input type="radio" name="Gender" checked> Male</label>
+  <label><input type="radio" name="Gender"> Female</label>
+   <label><input type="radio" name="Gender"> N/A</label>
+   
+<p>What is your favortie weather?</p>
+
+<label><input type="checkbox" name="weather"> Sunny</label>
+  <label><input type="checkbox" name="weather"> Rainning</label>
+  <label><input type="checkbox" name="weather"> Snowing</label>
+  <label><input type="checkbox" name="weather"> Other </label>
+  
+ <p> What is your favortie color?</p>
+
+<label><input type="checkbox" name="weather"> Blue</label>
+  <label><input type="checkbox" name="weather"> Red</label>
+  <label><input type="checkbox" name="weather"> Green</label>
+  <label><input type="checkbox" name="weather"> Other </label>
+  
+ <p>What kind of phone do you have?</p>
+ 
+ <label><input type="checkbox" name="weather"> Apple</label>
+  <label><input type="checkbox" name="weather"> Samsung</label>
+  <label><input type="checkbox" name="weather"> Sony </label>
+   <label><input type="checkbox" name="weather"> Other </label>
+ 
+ <p></p> 
+
+<div class="rowTab">
+      <div class="labels">
+        <label for="currentPos">What is your current emplyment status?</label>
+      </div>
+      <div class="rightTab">
+        <select id="dropdown" name="currentPos" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option  value="student">Part Time Job</option>
+      <option value="job">Full Time Job</option>
+      <option value="preferNo">Prefer not to say</option>
+      <option value="other">Other</option>
+    </select>
+      </div>
+      
+      <div><p> Thank you for your time!</p></div>
+<div><button id="submit" type="submit">Submit</button>
